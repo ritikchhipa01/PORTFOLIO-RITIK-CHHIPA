@@ -31,14 +31,15 @@ const useThemeSwitch = () => {
                 }
             }
         }
-        
+          
+        handleChange();
         mediaQuery.addEventListener("change", handleChange);
         return () => mediaQuery.removeEventListener("change",handleChange)
-    })
+    },[])
 
 
     useEffect(() =>{
-           if(mode == "dark"){
+           if(mode === "dark"){
             window.localStorage.setItem("theme","dark");
             document.documentElement.classList.add("dark");
            }

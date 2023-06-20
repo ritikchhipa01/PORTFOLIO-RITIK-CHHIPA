@@ -6,6 +6,7 @@ import profilePic from "../../public/images/profile/developer-pic-2.jpg"
 import Image from "next/image";
 import Skills from "../components/Skills"
 import Experience from "@/components/Experience";
+import Education from "@/components/Education";
 
 const about = () => {
     return (
@@ -15,7 +16,7 @@ const about = () => {
                 <meta name="description" content="My Description" />
             </Head>
 
-            <main className="flex flex-col w-full items-center justify-center">
+            <main className="flex flex-col w-full items-center justify-center dark:text-light">
                 <Layout className="pt-16">
                     <AnimatedText text={"Passion Fuels Purpose! "} className={"mb-16"} />
                     <div className="grid w-full grid-cols-8 gap-16">
@@ -32,7 +33,7 @@ const about = () => {
                             </p>
                             <p className="font-medium my-4 dark:text-light">
                                 I believe that design is about more than just making things look
-                                pretty – it&apos;s about solving problems and creating intuitive,
+                                pretty - it&apos;s about solving problems and creating intuitive,
                                 enjoyable experiences for users.
                             </p>
                             <p className="font-medium my-4 dark:text-light">
@@ -56,6 +57,7 @@ const about = () => {
 
                     <Skills/>
                     <Experience/>
+                    <Education />
                 </Layout>
             </main>
         </>
