@@ -86,7 +86,7 @@ const Github = ({className, ...rest}) => (
   )
   
   const CircularTextMy = (props) => (
-    <svg
+    <svg className="w-full h-auto fill-dark dark:fill-light animate-spin-slow duration-200"
       xmlns="http://www.w3.org/2000/svg"
       xmlSpace="preserve"
       viewBox="0 0 720 1024"

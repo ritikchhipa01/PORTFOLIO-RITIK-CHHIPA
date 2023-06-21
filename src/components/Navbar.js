@@ -68,7 +68,7 @@ const Navbar = () => {
     setisOpen(!isOpen);
   };
   return (
-    <header className="w-full px-32 py-8 text-dark font-medium flex items-center justify-between dark:text-light relative">
+    <header className="w-full px-32 py-8 text-dark font-medium flex items-center justify-between dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8">
       <button
         className=" flex-col justify-center items-center hidden lg:flex"
         onClick={handleClick}
@@ -251,10 +251,8 @@ const Navbar = () => {
         </motion.div>
       ) : null}
 
-      <div className=" absolute left-[50%] top-2 translate-x[-50%] ">
-        <h2>
+      <div  className="absolute left-[50%] top-2 translate-x-[-50%]">
           <Logo />
-        </h2>
       </div>
     </header>
   );
