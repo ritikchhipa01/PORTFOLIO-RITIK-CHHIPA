@@ -69,7 +69,7 @@ const projects = () => {
   return (
     <>
       <Head>
-        <title>Ritik chhipa | Projects</title>
+        <title>Ritik chhipa | PROJECTS</title>
         <meta name='description' content='Any Content' />
       </Head>
       <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
