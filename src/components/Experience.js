@@ -50,29 +50,16 @@ const Experience = () => {
           
           <Details
 
-            position={"Software Engineer"}
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address={"Mountain View, CA"}
-            work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
+            position={"AS a WEB & UI/UX Developer"}
+            company="JECRC Incubation Centre"
+            companyLink=""
+            time="2021-2022"
+            address={"Jaipur, Rajasthan, India"}
+            work="Worked on a team responsible for developing UI, landing pages, and for webApps, 
+            And managed communication and meetings as part of my work in idea called second mind."
 
           />
-          <Details
-
-            position={"Software Engineer"}
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address={"Mountain View, CA"}
-            work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
-
-          />
-          <Details
+          {/* <Details
 
             position={"Software Engineer"}
             company="Google"
@@ -83,7 +70,19 @@ developing new tools for data analysis and visualization."
 search engine, including improving the accuracy and relevance of search results and 
 developing new tools for data analysis and visualization."
 
-          />
+          /> */}
+          {/* <Details
+
+            position={"Software Engineer"}
+            company="Google"
+            companyLink="www.google.com"
+            time="2022-Present"
+            address={"Mountain View, CA"}
+            work="Worked on a team responsible for developing new features for Google's 
+search engine, including improving the accuracy and relevance of search results and 
+developing new tools for data analysis and visualization."
+
+          /> */}
         </ul>
       </div>
     </div>

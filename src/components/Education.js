@@ -49,24 +49,24 @@ const Education = () => {
 
                     <Details
 
-                        type={"Bachelor Of Science In Computer Science"}
-                        time="2016-2020"
+                        type={"Bachelor Of Electronics and Communication Engineering"}
+                        time="2020-2024"
                         place="Jaipur Engineering College and research centre"
                         info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, Full-stack development.
 "
                     />
                     <Details
                         type={"Online Coursework"}
-                        time="2016-2020"
+                        time="2022-2023"
                         place="Codehelp"
-                        info="Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Full-stack development."
+                        info="Completed coursework in advanced topics such as Reinforcement Learning, MERN STACK / Full-stack development."
 
                     />
                     <Details
-                        type={"Online Coursework"}
-                        time="2016-2020"
-                        place="Codehelp"
-                        info="Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, Full-stack development."
+                        type={"High School from Science Math"}
+                        time="2019-2020"
+                        place="Riya International Academy"
+                        info="Completed coursework in advanced Science and Math fundamentals."
 
                     />
 
