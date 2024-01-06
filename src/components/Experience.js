@@ -55,8 +55,18 @@ const Experience = () => {
             companyLink=""
             time="2021-2022"
             address={"Jaipur, Rajasthan, India"}
-            work="Worked on a team responsible for developing UI, landing pages, and for webApps, 
+            work="Worked in a team responsible for developing UI, landing pages, and for webApps, 
             And managed communication and meetings as part of my work in idea called second mind."
+
+          />
+          <Details
+
+            position={"AS a Juniour Web Developer Inten"}
+            company="SM DIGITAL TECHNOLOGIES"
+            companyLink=""
+            time="10/2023-12/2023"
+            address={"Jaipur, Rajasthan, India"}
+            work="Worked in a team with a team of senior developers, learning, and contributing effectively in a fast-paced team environment.In this journey, I developed the web-application's with React, NEXT and lot tech stack, leaned lot of best practices."
 
           />
           {/* <Details
