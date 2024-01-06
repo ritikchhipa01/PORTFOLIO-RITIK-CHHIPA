@@ -2,6 +2,8 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import profilePic from "../../public/images/profile/developer-pic-1.png";
+import developer from "../../public/images/profile/developer.jpg";
+
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import HireMe from "@/components/HireMe";
@@ -25,9 +27,10 @@ export default function Home() {
           <div className="flex items-center justify-between w-full lg:flex-col">
             <div className="w-1/2 md:w-full">
               <Image
-                src={profilePic}
+                src={developer}
+                style={{ borderRadius :"30% 70% 70% 30% / 30% 30% 70% 70%"}}
                 alt="Ritik chhipa Ai Generated Image"
-                className="h-auto w-full lg:hidden md:inline-block md:w-full"
+                className="h-auto  w-[80%] lg:hidden md:inline-block md:w-full mb-4"
                 priority
                 sizes="(max-width: 768px) 100vw,
                 (max-width: 1200px) 50vw,
